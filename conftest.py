@@ -17,3 +17,6 @@ def browser(request):
     yield browser
     print("\nquit browser..")
     browser.quit()
+
+# Если возникают ошибки при работе то необходимо установить в виртуальное окружение версию pytest==7.1.1 с той что рекомендуется в курсе не работают Conftest4
+# все либы есть в requirements.txt
